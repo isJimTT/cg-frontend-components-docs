@@ -1,0 +1,1 @@
+import{s as r,y as u,A as t}from"./iframe-CiolPNwv.js";import{u as a}from"./responsiveObserve-Cqxd3VwU.js";function v(){const e=r({});let s=null;const n=a();return u(()=>{s=n.value.subscribe(o=>{e.value=o})}),t(()=>{n.value.unsubscribe(s)}),e}export{v as u};

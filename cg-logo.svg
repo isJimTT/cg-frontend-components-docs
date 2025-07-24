@@ -1,0 +1,32 @@
+<svg width="1000" height="200" viewBox="0 0 600 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆角矩形 -->
+  <rect width="600" height="120" rx="24" fill="url(#gradient)"/>
+  
+  <!-- 渐变定义 -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1890ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#40a9ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- CG 字母 -->
+  <text x="40" y="80" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="white">CG</text>
+  
+  <!-- 组件图标 -->
+  <g transform="translate(160, 30)">
+    <rect x="0" y="0" width="16" height="16" rx="4" fill="white" opacity="0.9"/>
+    <rect x="24" y="0" width="16" height="16" rx="4" fill="white" opacity="0.7"/>
+    <rect x="48" y="0" width="16" height="16" rx="4" fill="white" opacity="0.5"/>
+    <rect x="0" y="24" width="16" height="16" rx="4" fill="white" opacity="0.7"/>
+    <rect x="24" y="24" width="16" height="16" rx="4" fill="white" opacity="0.9"/>
+    <rect x="48" y="24" width="16" height="16" rx="4" fill="white" opacity="0.7"/>
+    <rect x="0" y="48" width="16" height="16" rx="4" fill="white" opacity="0.5"/>
+    <rect x="24" y="48" width="16" height="16" rx="4" fill="white" opacity="0.7"/>
+    <rect x="48" y="48" width="16" height="16" rx="4" fill="white" opacity="0.9"/>
+  </g>
+  
+  <!-- 文字 -->
+  <text x="270" y="52" font-family="Arial, sans-serif" font-size="40" font-weight="500" fill="white">Frontend</text>
+  <text x="270" y="90" font-family="Arial, sans-serif" font-size="40" font-weight="500" fill="white">Components</text>
+</svg>

@@ -1,0 +1,1 @@
+import{l as s,m as c,n as a,_ as u,p as i}from"./iframe-CiolPNwv.js";function x(n){const t=Symbol("contextKey");return{useProvide:(o,r)=>{const e=c({});return i(t,e),a(()=>{u(e,o,r||{})}),e},useInject:()=>s(t,n)||{}}}export{x as c};

@@ -1,0 +1,1 @@
+let i={};function c(n,a){}function o(n,a){}function t(n,a,e){!a&&!i[e]&&(n(!1,e),i[e]=!0)}function f(n,a){t(c,n,a)}function s(n,a){t(o,n,a)}const u=(n,a,e)=>{f(n,`[ant-design-vue: ${a}] ${e}`)};export{f as a,u as d,s as n,c as w};

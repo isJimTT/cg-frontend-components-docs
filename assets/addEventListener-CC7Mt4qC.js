@@ -1,0 +1,1 @@
+import{s as r}from"./supportsPassive-CeduFZj4.js";function f(s,e,o,n){if(s&&s.addEventListener){let i=n;i===void 0&&r&&(e==="touchstart"||e==="touchmove"||e==="wheel")&&(i={passive:!1}),s.addEventListener(e,o,i)}return{remove:()=>{s&&s.removeEventListener&&s.removeEventListener(e,o)}}}export{f as a};
